@@ -1,4 +1,4 @@
-import './Principal.css'
+import estilos from './Principal.module.css'
 import Vinculo from './Vinculo'
 import { ReactComponent as ListaSVG } from '../img/lista.svg'
 import { ReactComponent as NuevaSVG } from '../img/nueva.svg'
@@ -6,16 +6,22 @@ function Principal({ children }) {
 
 
   return (
-     <div className='principal'>
-      <aside className='aside'>
-        <Vinculo href='/lista'texto='Lista de metas'>
-         <ListaSVG className='icono'/>
+     <div className={estilos.principal}>
+      <aside className={estilos.aside}>
+        <Vinculo
+         href='/lista'
+        texto='Lista de metas'
+        Icono={ListaSVG}
+        /> 
+         
+        <Vinculo 
+        href='/crear'
+        texto='Nueva Meta'
+        Icono={NuevaSVG}
+          />
+        
 
-        </Vinculo>
-        <Vinculo href='/crear'texto='Nueva Meta'>
-         <NuevaSVG className='icono'/>
-
-        </Vinculo>
+       
         
       </aside>
       <main className='main'>

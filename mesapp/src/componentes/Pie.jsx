@@ -5,7 +5,7 @@ function Pie() {
   return (
     <footer className='pie'>
       <small>
-        Desarrollado y diseñado por Anthony Rafael Arteaga. ©2030. Todos los
+        Desarrollado y diseñado por Anthony Rafael Arteaga. ©2023. Todos los
         derechos reservados.
       </small>
     </footer>
