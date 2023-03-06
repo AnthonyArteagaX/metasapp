@@ -1,6 +1,6 @@
 import React from 'react';
-import { ReactComponent as LogoSVG } from "../img/logo.svg";
-import { ReactComponent as PerfilSVG } from "../img/perfil.svg";
+import { ReactComponent as LogoSVG } from "../../img/logo.svg";
+import { ReactComponent as PerfilSVG } from "../../img/perfil.svg";
 import  estilos from './Encabezado.module.css';
 import Vinculo from './Vinculo';
 

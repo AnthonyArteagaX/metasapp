@@ -2,9 +2,9 @@
 import React from "react";
 import { useState } from 'react'
 import "./App.css";
-import Encabezado from './componentes/Encabezado'
-import Principal from './componentes/Principal'
-import Pie from './componentes/Pie'
+import Encabezado from './componentes/compartidos/Encabezado'
+import Principal from './componentes/compartidos/Principal'
+import Pie from './componentes/compartidos/Pie'
 function App() {
   const [count, setCount] = useState(0)
 
